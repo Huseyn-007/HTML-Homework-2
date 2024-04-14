@@ -1,0 +1,48 @@
+.mainDiv {
+  width: 400px;
+  height: 500px;
+  background-color: #EBEEE1;
+}
+
+.mainDiv .childDiv {
+  width: 350px;
+  height: 120px;
+  background-color: white;
+  border-left: 5px solid #7CAD98;
+  margin-bottom: 10px;
+}
+
+.mainDiv .childDiv .firstP {
+  color: #7A7E83;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.mainDiv .childDiv .secondP {
+  margin-left: 10px;
+  color: #D6DCDA;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainDiv .childDiv .rounds {
+  background-color: #EBEBEB;
+  color: #7A7E83;
+  border-radius: 40%;
+  text-decoration: none;
+  width:50px;
+  height: 15px;
+  text-align: center;
+  padding-top: 4px;   
+  margin-left: 15px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.70em;
+
+
+}
+
+.line * {
+  display: inline-block;
+}
